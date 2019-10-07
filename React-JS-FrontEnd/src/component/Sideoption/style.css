@@ -1,0 +1,131 @@
+.menu {
+    height: 60px;
+    width: 60px;
+    background-color:#06aabf;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    left: 10px;
+    top:10px;
+    cursor: pointer;
+    /* border-width:10px;
+    border: black; */
+}
+
+.menu:hover {
+    background-color: #0bc8e0;
+}
+
+.menu:hover .option {
+    visibility: visible;
+}
+
+#menu-icon{
+    position: absolute;
+    left:0.2px;
+    top:0.4px;
+    width: 65px;
+    height: 65px;
+}
+.option{
+    height: 60px;
+    width: 60px;
+    background-color:#06aabf;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 65px;
+}
+.option:hover{
+    background-color: #0bc8e0;
+}
+.menu .option{
+    visibility: hidden;
+}
+
+#project-icon{
+    position: absolute;
+    left:8px;
+    width:40px;
+    height:40px;
+}
+
+#defect-icon{
+    position: absolute;
+    left: 8px;
+    width:45px;
+    height: 45px;
+}
+#employee-icon{
+    position: absolute;
+    left:9px;
+    top:8px;
+    width: 42px;
+    height: 42px;
+}
+.project{
+    width:50px;
+    height:50px;
+    background-color: #06aabf;
+    border-radius: 50%;
+    position: relative;
+    /* display: block;  */
+    Left:60px;
+    top:-21px;
+    
+}
+
+.option .project{
+    visibility: hidden;
+}
+
+.option:hover .project{
+    visibility: visible;
+}
+
+.project:hover {
+    background-color: #0bc8e0;
+}
+
+.project:active {
+    background-color: #45f574;
+}
+
+#addproject, #listproject{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left:8px;
+    top:5px;
+}
+
+#add-defect {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left:10px;
+    top:6px; 
+}
+
+#listdefect{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left:8px;
+    top:6px; 
+}
+
+#add-emp{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left:8px;
+    top:6px; 
+}
+#list-emp{
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left:7px;
+    top:8px; 
+}
